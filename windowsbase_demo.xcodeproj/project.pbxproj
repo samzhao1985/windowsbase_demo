@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22755D2813AA7635007DA557 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22755D2713AA7635007DA557 /* UIKit.framework */; };
+		22755D2A13AA7635007DA557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22755D2913AA7635007DA557 /* Foundation.framework */; };
+		22755D2C13AA7635007DA557 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22755D2B13AA7635007DA557 /* CoreGraphics.framework */; };
+		22755D3213AA7635007DA557 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22755D3013AA7635007DA557 /* InfoPlist.strings */; };
+		22755D3513AA7635007DA557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22755D3413AA7635007DA557 /* main.m */; };
+		22755D3813AA7635007DA557 /* windowsbase_demoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22755D3713AA7635007DA557 /* windowsbase_demoAppDelegate.m */; };
+		22755D3B13AA7635007DA557 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22755D3913AA7635007DA557 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22755D2313AA7635007DA557 /* windowsbase_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = windowsbase_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22755D2713AA7635007DA557 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22755D2913AA7635007DA557 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22755D2B13AA7635007DA557 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22755D2F13AA7635007DA557 /* windowsbase_demo-Info.plist */ = {isa = PBXFileReference; path = "windowsbase_demo-Info.plist"; sourceTree = "<group>"; };
+		22755D3113AA7635007DA557 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22755D3313AA7635007DA557 /* windowsbase_demo-Prefix.pch */ = {isa = PBXFileReference; path = "windowsbase_demo-Prefix.pch"; sourceTree = "<group>"; };
+		22755D3413AA7635007DA557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22755D3613AA7635007DA557 /* windowsbase_demoAppDelegate.h */ = {isa = PBXFileReference; path = windowsbase_demoAppDelegate.h; sourceTree = "<group>"; };
+		22755D3713AA7635007DA557 /* windowsbase_demoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = windowsbase_demoAppDelegate.m; sourceTree = "<group>"; };
+		22755D3A13AA7635007DA557 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22755D2013AA7635007DA557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22755D2813AA7635007DA557 /* UIKit.framework in Frameworks */,
+				22755D2A13AA7635007DA557 /* Foundation.framework in Frameworks */,
+				22755D2C13AA7635007DA557 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22755D1813AA7634007DA557 = {
+			isa = PBXGroup;
+			children = (
+				22755D2D13AA7635007DA557 /* windowsbase_demo */,
+				22755D2613AA7635007DA557 /* Frameworks */,
+				22755D2413AA7635007DA557 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22755D2413AA7635007DA557 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22755D2313AA7635007DA557 /* windowsbase_demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22755D2613AA7635007DA557 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22755D2713AA7635007DA557 /* UIKit.framework */,
+				22755D2913AA7635007DA557 /* Foundation.framework */,
+				22755D2B13AA7635007DA557 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22755D2D13AA7635007DA557 /* windowsbase_demo */ = {
+			isa = PBXGroup;
+			children = (
+				22755D3613AA7635007DA557 /* windowsbase_demoAppDelegate.h */,
+				22755D3713AA7635007DA557 /* windowsbase_demoAppDelegate.m */,
+				22755D3913AA7635007DA557 /* MainWindow.xib */,
+				22755D2E13AA7635007DA557 /* Supporting Files */,
+			);
+			path = windowsbase_demo;
+			sourceTree = "<group>";
+		};
+		22755D2E13AA7635007DA557 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22755D2F13AA7635007DA557 /* windowsbase_demo-Info.plist */,
+				22755D3013AA7635007DA557 /* InfoPlist.strings */,
+				22755D3313AA7635007DA557 /* windowsbase_demo-Prefix.pch */,
+				22755D3413AA7635007DA557 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22755D2213AA7635007DA557 /* windowsbase_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22755D3E13AA7635007DA557 /* Build configuration list for PBXNativeTarget "windowsbase_demo" */;
+			buildPhases = (
+				22755D1F13AA7635007DA557 /* Sources */,
+				22755D2013AA7635007DA557 /* Frameworks */,
+				22755D2113AA7635007DA557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = windowsbase_demo;
+			productName = windowsbase_demo;
+			productReference = 22755D2313AA7635007DA557 /* windowsbase_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22755D1A13AA7634007DA557 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 22755D1D13AA7634007DA557 /* Build configuration list for PBXProject "windowsbase_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22755D1813AA7634007DA557;
+			productRefGroup = 22755D2413AA7635007DA557 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22755D2213AA7635007DA557 /* windowsbase_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22755D2113AA7635007DA557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22755D3213AA7635007DA557 /* InfoPlist.strings in Resources */,
+				22755D3B13AA7635007DA557 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22755D1F13AA7635007DA557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22755D3513AA7635007DA557 /* main.m in Sources */,
+				22755D3813AA7635007DA557 /* windowsbase_demoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22755D3013AA7635007DA557 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22755D3113AA7635007DA557 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22755D3913AA7635007DA557 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22755D3A13AA7635007DA557 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22755D3C13AA7635007DA557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22755D3D13AA7635007DA557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		22755D3F13AA7635007DA557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "windowsbase_demo/windowsbase_demo-Prefix.pch";
+				INFOPLIST_FILE = "windowsbase_demo/windowsbase_demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22755D4013AA7635007DA557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "windowsbase_demo/windowsbase_demo-Prefix.pch";
+				INFOPLIST_FILE = "windowsbase_demo/windowsbase_demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22755D1D13AA7634007DA557 /* Build configuration list for PBXProject "windowsbase_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22755D3C13AA7635007DA557 /* Debug */,
+				22755D3D13AA7635007DA557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22755D3E13AA7635007DA557 /* Build configuration list for PBXNativeTarget "windowsbase_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22755D3F13AA7635007DA557 /* Debug */,
+				22755D4013AA7635007DA557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22755D1A13AA7634007DA557 /* Project object */;
+}
