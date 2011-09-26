@@ -9,10 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface windowsbase_demoAppDelegate : NSObject <UIApplicationDelegate> {
-    IBOutlet UITextField *text;
-    IBOutlet UILabel *lable;
+
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-- (IBAction) clickButton: (UIButton *)sender;
+
 @end

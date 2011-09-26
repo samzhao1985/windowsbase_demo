@@ -21,11 +21,11 @@
 		22755D2713AA7635007DA557 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22755D2913AA7635007DA557 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22755D2B13AA7635007DA557 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		22755D2F13AA7635007DA557 /* windowsbase_demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "windowsbase_demo-Info.plist"; sourceTree = "<group>"; };
+		22755D2F13AA7635007DA557 /* windowsbase_demo-Info.plist */ = {isa = PBXFileReference; path = "windowsbase_demo-Info.plist"; sourceTree = "<group>"; };
 		22755D3113AA7635007DA557 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		22755D3313AA7635007DA557 /* windowsbase_demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "windowsbase_demo-Prefix.pch"; sourceTree = "<group>"; };
+		22755D3313AA7635007DA557 /* windowsbase_demo-Prefix.pch */ = {isa = PBXFileReference; path = "windowsbase_demo-Prefix.pch"; sourceTree = "<group>"; };
 		22755D3413AA7635007DA557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		22755D3613AA7635007DA557 /* windowsbase_demoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = windowsbase_demoAppDelegate.h; sourceTree = "<group>"; };
+		22755D3613AA7635007DA557 /* windowsbase_demoAppDelegate.h */ = {isa = PBXFileReference; path = windowsbase_demoAppDelegate.h; sourceTree = "<group>"; };
 		22755D3713AA7635007DA557 /* windowsbase_demoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = windowsbase_demoAppDelegate.m; sourceTree = "<group>"; };
 		22755D3A13AA7635007DA557 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
