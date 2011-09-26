@@ -20,6 +20,13 @@
     return YES;
 }
 
+- (IBAction) clickButton:(UIButton *)sender
+{
+    lable.text=text.text;
+    UIAlertView *alert=[[UIAlertView alloc] initWithTitle:@"您输入的是：" message:text.text delegate:self cancelButtonTitle:@"是的，哈哈" otherButtonTitles: nil];
+    [alert show];
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     /*
